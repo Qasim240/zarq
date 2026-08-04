@@ -49,3 +49,4 @@ Build the project:
 ```bash
 npm run build
 ```
+<!-- new page coming soon -->
