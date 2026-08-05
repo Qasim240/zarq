@@ -50,3 +50,4 @@ Build the project:
 npm run build
 ```
 <!-- new page coming soon -->
+<!-- Shopify store coming soong -->
