@@ -6,21 +6,21 @@ export default function ShippingPolicy() {
   return (
     <LegalPage
       title="Shipping Policy"
-      intro="At ZARQ, we aim to make your shopping experience smooth from order confirmation to delivery. This Shipping Policy explains how we process and deliver orders across Pakistan."
+      intro="At AARSI, we aim to make your shopping experience smooth from order confirmation to delivery. This Shipping Policy explains how we process and deliver orders across Pakistan."
       sections={[
         {
           heading: "How to Place an Order",
           body: (
             <>
               <p>
-                ZARQ currently accepts orders exclusively through our official
+                AARSI currently accepts orders exclusively through our official
                 WhatsApp Business account. Our website is for informational
                 purposes only and does not support online ordering.
               </p>
 
               <div className="mt-4">
                 <a
-                  href="https://wa.me/923107843983?text=Hi%20ZARQ!%20I'm%20interested%20in%20your%20jewelry."
+                  href="https://wa.me/923107843983?text=Hi%20AARSI!%20I'm%20interested%20in%20your%20jewelry."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold underline underline-offset-4"
@@ -95,7 +95,7 @@ export default function ShippingPolicy() {
               </p>
 
               <p className="mt-4">
-                From time to time, ZARQ may offer free shipping as part of
+                From time to time, AARSI may offer free shipping as part of
                 promotional campaigns.
               </p>
             </>
@@ -158,7 +158,7 @@ export default function ShippingPolicy() {
               </ul>
 
               <p className="mt-4">
-                ZARQ is not responsible for failed deliveries caused by
+                AARSI is not responsible for failed deliveries caused by
                 incomplete or incorrect information provided by the customer.
               </p>
             </>
@@ -194,7 +194,7 @@ export default function ShippingPolicy() {
                 <p>
                   <strong>WhatsApp:</strong>{" "}
                   <a
-                    href="https://wa.me/923107843983?text=Hi%20ZARQ!%20I%20have%20a%20question%20about%20shipping."
+                    href="https://wa.me/923107843983?text=Hi%20AARSI!%20I%20have%20a%20question%20about%20shipping."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gold underline underline-offset-4"

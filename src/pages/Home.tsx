@@ -23,12 +23,13 @@ export default function Home() {
         <div className="mx-auto mt-10 h-px w-16 bg-gold" aria-hidden="true" />
 
         <h1 className="mt-10 text-3xl md:text-5xl font-serif text-ink leading-[1.15] max-w-3xl mx-auto">
-          Minimalist Jewelry for <em className="not-italic text-gold">Everyday Elegance</em>
+          A Reflection of <em className="not-italic text-gold">You</em>
         </h1>
 
         <p className="mt-8 text-base md:text-lg text-muted leading-relaxed max-w-xl mx-auto">
-          ZARQ is a quiet celebration of understated luxury. Timeless pieces —
-          designed to be worn every day, remembered forever.
+          AARSI is minimalist jewelry for everyday elegance — a quiet
+          celebration of understated luxury. Timeless pieces, designed to be
+          worn every day, remembered forever.
         </p>
 
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -61,7 +62,7 @@ export default function Home() {
             Worn with meaning.
           </h2>
           <p className="mt-8 text-base md:text-lg text-ink/75 leading-[1.9] max-w-2xl mx-auto">
-            Born from a love of simplicity, ZARQ is a jewelry brand devoted to
+            Born from a love of simplicity, AARSI is a jewelry brand devoted to
             pieces that quietly define you. Each design is refined to its
             essence — clean lines, honest materials, and a soft gold warmth that
             settles beautifully into everyday life.

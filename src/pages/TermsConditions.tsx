@@ -6,14 +6,14 @@ export default function TermsConditions() {
   return (
     <LegalPage
       title="Terms & Conditions"
-      intro="Welcome to ZARQ. These Terms & Conditions govern your use of our website and purchases made through our official WhatsApp Business account. By accessing our website or placing an order with us, you agree to these terms."
+      intro="Welcome to AARSI. These Terms & Conditions govern your use of our website and purchases made through our official WhatsApp Business account. By accessing our website or placing an order with us, you agree to these terms."
       sections={[
         {
           heading: "Website Usage",
           body: (
             <>
               <p>
-                The ZARQ website is intended to provide information about our
+                The AARSI website is intended to provide information about our
                 brand, products, and policies. At this time, our website does
                 not support online shopping or checkout.
               </p>
@@ -36,7 +36,7 @@ export default function TermsConditions() {
 
               <div className="mt-4">
                 <a
-                  href="https://wa.me/923107843983?text=Hi%20ZARQ!%20I'm%20interested%20in%20your%20jewelry."
+                  href="https://wa.me/923107843983?text=Hi%20AARSI!%20I'm%20interested%20in%20your%20jewelry."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold underline underline-offset-4"
@@ -189,7 +189,7 @@ export default function TermsConditions() {
               </p>
 
               <p className="mt-4">
-                ZARQ is not responsible for delays or failed deliveries caused
+                AARSI is not responsible for delays or failed deliveries caused
                 by incorrect information provided by the customer.
               </p>
             </>
@@ -200,15 +200,15 @@ export default function TermsConditions() {
           body: (
             <>
               <p>
-                All content on the ZARQ website and our official social media
+                All content on the AARSI website and our official social media
                 pages, including our brand name, logo, product photographs,
-                graphics, text, and website design, is owned by ZARQ unless
+                graphics, text, and website design, is owned by AARSI unless
                 otherwise stated.
               </p>
 
               <p className="mt-4">
                 No content may be copied, reproduced, modified, distributed, or
-                used commercially without prior written permission from ZARQ.
+                used commercially without prior written permission from AARSI.
               </p>
             </>
           ),
@@ -218,7 +218,7 @@ export default function TermsConditions() {
           body: (
             <>
               <p>
-                ZARQ is not liable for delays or losses resulting from courier
+                AARSI is not liable for delays or losses resulting from courier
                 services, natural disasters, internet failures, government
                 actions, or circumstances beyond our reasonable control.
               </p>
@@ -260,7 +260,7 @@ export default function TermsConditions() {
                 <p>
                   <strong>WhatsApp:</strong>{" "}
                   <a
-                    href="https://wa.me/923107843983?text=Hi%20ZARQ!%20I'm%20interested%20in%20your%20jewelry."
+                    href="https://wa.me/923107843983?text=Hi%20AARSI!%20I'm%20interested%20in%20your%20jewelry."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gold underline underline-offset-4"

@@ -35,7 +35,7 @@ export default function Contact() {
         </div>
 
         <h2 className="mt-6 text-3xl font-serif">
-          Chat with ZARQ on WhatsApp
+          Chat with AARSI on WhatsApp
         </h2>
 
         <p className="mt-4 text-muted max-w-xl mx-auto leading-relaxed">
@@ -109,11 +109,11 @@ export default function Contact() {
       {/* Trust Message */}
       <div className="mt-14 text-center max-w-2xl mx-auto">
         <h3 className="text-2xl font-serif">
-          Why Order with ZARQ?
+          Why Order with AARSI?
         </h3>
 
         <p className="mt-5 text-muted leading-relaxed">
-          We're building ZARQ one customer at a time. Every order is handled
+          We're building AARSI one customer at a time. Every order is handled
           with care, from answering your questions to carefully packaging your
           jewelry before it reaches your doorstep. Your trust means everything
           to us.
