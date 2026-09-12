@@ -13,7 +13,7 @@ export default function RefundPolicy() {
           body: (
             <>
               <p>
-                At ZARQ, every order is carefully inspected before it is packed
+                At AARSI, every order is carefully inspected before it is packed
                 and shipped. If you receive a damaged, defective, or incorrect
                 item, we'll work with you to resolve the issue as quickly as
                 possible.
@@ -90,7 +90,7 @@ export default function RefundPolicy() {
           body: (
             <>
               <p>
-                Selected ZARQ products are clearly marked as{" "}
+                Selected AARSI products are clearly marked as{" "}
                 <strong>Waterproof</strong> or{" "}
                 <strong>Acid Resistant</strong>.
               </p>

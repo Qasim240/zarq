@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { cn } from "../utils/cn";
+import { site } from "../config/site";
 
 interface LogoProps {
   className?: string;
@@ -8,33 +9,31 @@ interface LogoProps {
 }
 
 /**
- * ZARQ wordmark logo — placeholder that can be swapped for an SVG later.
- * Uses a serif face with wide tracking for a luxury feel.
+ * AARSI wordmark logo — cropped, transparent PNG of the official logo
+ * (source artwork: src/AARSI logo-01.png).
  */
 export default function Logo({ className, size = "md", asLink = true }: LogoProps) {
   const sizeClasses = {
-    sm: "text-xl tracking-[0.35em]",
-    md: "text-2xl tracking-[0.4em]",
-    lg: "text-5xl md:text-7xl tracking-[0.45em]",
+    sm: "h-6 md:h-7",
+    md: "h-9",
+    lg: "h-20 md:h-32",
   };
 
   const inner = (
-    <span
-      className={cn(
-        "font-serif font-normal text-ink select-none",
-        sizeClasses[size],
-        className,
-      )}
-      aria-label="ZARQ"
-    >
-      ZARQ
-    </span>
+    <img
+      src="/aarsi-logo.png"
+      alt={site.name}
+      width={1781}
+      height={484}
+      draggable={false}
+      className={cn("w-auto select-none", sizeClasses[size], className)}
+    />
   );
 
   if (!asLink) return inner;
 
   return (
-    <Link to="/" className="inline-block" aria-label="ZARQ — Home">
+    <Link to="/" className="inline-block" aria-label={`${site.name} — Home`}>
       {inner}
     </Link>
   );

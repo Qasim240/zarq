@@ -6,14 +6,14 @@ export default function PrivacyPolicy() {
   return (
     <LegalPage
       title="Privacy Policy"
-      intro="At ZARQ, your privacy matters to us. This Privacy Policy explains what information we collect, why we collect it, and how we protect it when you interact with us through our website, Facebook, Instagram, or WhatsApp."
+      intro="At AARSI, your privacy matters to us. This Privacy Policy explains what information we collect, why we collect it, and how we protect it when you interact with us through our website, Facebook, Instagram, or WhatsApp."
       sections={[
         {
           heading: "Information We Collect",
           body: (
             <>
               <p>
-                When you place an order or contact ZARQ, we may collect the
+                When you place an order or contact AARSI, we may collect the
                 following information:
               </p>
 
